@@ -6,6 +6,7 @@
     <title>Portfólio | Yuri Sousa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/@splinetool/viewer@1.0.52/build/spline-viewer.js"></script>
 </head>
 <body>
     <header>
@@ -39,13 +40,7 @@
                     </div>
                 </div>
                 <div class="hero-animation">
-                    <!-- Espaço para sua animação 3D -->
-                    <div id="world-animation-container">
-                        <!-- Você substituirá este div pela sua animação 3D -->
-                        <div class="animation-placeholder">
-                            <p></p>
-                        </div>
-                    </div>
+                    <spline-viewer url="https://prod.spline.design/7TTRHZ38E5qOc8dP/scene.splinecode"></spline-viewer>
                 </div>
             </div>
         </section>
@@ -55,7 +50,11 @@
                 <h2 class="section-title">Sobre <span class="highlight">Mim</span></h2>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>Oi! Eu sou o Yuri Sousa, um entusiasta da programação começando minha jornada no mundo do código. Já dei meus primeiros cliques com HTML, CSS, Python e Java — explorando de tudo um pouco e curtindo cada descoberta (mesmo quando o bug insiste em aparecer 😅). Gosto de aprender na prática, criar projetos e transformar ideias simples em algo funcional. Tô sempre em busca de evoluir, errar menos e codar mais!</p>
+                        <p>Sou programador de jogos com experiência em desenvolvimento utilizando HTML, CSS, JavaScript, Python e Java. Tenho como foco a criação de experiências interativas que unem simplicidade visual com desafios técnicos e de jogabilidade mais complexos. Acredito que jogos envolventes nascem do equilíbrio entre mecânicas bem elaboradas e uma interface limpa, que permite ao jogador concentrar-se na experiência.
+
+Valorizo a escrita de código claro, estruturado e eficiente, sempre buscando soluções que priorizem a performance e a escalabilidade do projeto. Estou em constante evolução técnica e criativa, com interesse especial em projetos que desafiem tanto o desenvolvedor quanto o jogador.
+
+</p>
                         <div class="about-info">
                             <div class="info-item">
                                 <span class="info-label">Nome:</span>
@@ -65,15 +64,11 @@
                                 <span class="info-label">Email:</span>
                                 <span class="info-value">yuri19sousa@gmail.com</span>
                             </div>
-                            <div class="info-item">
-                            </div>
-                            <div class="info-item">
-                            </div>
                         </div>
                     </div>
                     <div class="about-photo">
                         <div class="photo-placeholder">
-                            <p><img src="file_00000000289c61fb865ca0ad2343b3dc.png" alt=""></p>
+                            <img src="file_00000000289c61fb865ca0ad2343b3dc.png" alt="Foto de Yuri Sousa">
                         </div>
                     </div>
                 </div>
@@ -93,13 +88,8 @@
                             </div>
                         </div>
                         <div class="project-info">
-                            <h3>...........</h3>
-                            <p>..............</p>
-                            <div class="project-tech">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
+                            <h3>Site de Haikyu!!</h3>
+                            <p>Site sobre o anime Haykyu!! que descreve o anime e seus personagens.</p>
                         </div>
                     </div>
                     <div class="project-card">
@@ -111,76 +101,193 @@
                             </div>
                         </div>
                         <div class="project-info">
-                            <h3>........</h3>
-                            <p>.....................</p>
-                            <div class="project-tech">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="https://via.placeholder.com/600x400" alt="Projeto 3">
-                            <div class="project-links">
-                                <a href="#"><i class="fas fa-link"></i></a>
-                            </div>
-                        </div>
-                        <div class="project-info">
-                            <h3>..........</h3>
-                            <p>...................................</p>
-                            <div class="project-tech">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
+                            <h3>Adivinhe o número</h3>
+                            <p>Mini game de adivinhação de números, com niveis de personalização de dificuldade.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section id="contato" class="contact">
-            <div class="container">
-                <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="info-text">
-                                <h3>Email</h3>
-                                <p>yuri19sousa@gmail.com</p>
+        <section id="habilidades" class="skills">
+    <div class="container">
+        <h2 class="section-title">Minhas <span class="highlight">Habilidades</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Linguagens</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>HTML5</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
                             </div>
                         </div>
-                        <div class="info-card">
-                            <div class="info-icon">
-                                <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>CSS3</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
                             </div>
-                            <div class="info-text">
-                                <h3>Localização</h3>
-                                <p>Açailândia-MA, Brasil</p>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>JavaScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <span class="logo-name">YS</span>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Ferramentas</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Git</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>GitHub</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Terminal</h4>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Yuri Sousa.</p>
             </div>
         </div>
+    </div>
+</section>
+
+        <section id="contato" class="contact">
+    <div class="container">
+        <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <!-- Card do Email (existente) -->
+                <div class="info-card email-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="info-text">
+                        <h3>Email</h3>
+                        <p>yuri19sousa@gmail.com</p>
+                    </div>
+                </div>
+                
+                <!-- Novo card do GitHub -->
+                <a href="https://github.com/seu-usuario" target="_blank" class="info-card github-card">
+                    <div class="info-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="info-text">
+                        <h3>GitHub</h3>
+                        <p>/seu-usuario</p>
+                    </div>
+                </a>
+                
+                <!-- Novo card do Instagram -->
+                <a href="https://instagram.com/seu-usuario" target="_blank" class="info-card instagram-card">
+                    <div class="info-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="info-text">
+                        <h3>Instagram</h3>
+                        <p>@seu-usuario</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
     </footer>
+
+    <script>
+        // Controle da animação do Spline
+        let splineViewer = null;
+        
+        // Observar mudanças nas seções
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.target.id === 'home' && entry.isIntersecting) {
+                    // Se a home está visível, carrega a animação
+                    if (!splineViewer) {
+                        splineViewer = document.querySelector('spline-viewer');
+                    }
+                    splineViewer.style.display = 'block';
+                } else if (entry.target.id === 'home' && !entry.isIntersecting) {
+                    // Se a home não está visível, esconde a animação
+                    if (splineViewer) {
+                        splineViewer.style.display = 'none';
+                    }
+                }
+            });
+        }, { threshold: 0.5 });
+
+        // Observar a seção home
+        const homeSection = document.getElementById('home');
+        observer.observe(homeSection);
+
+        // Copiar email ao clicar
+        document.querySelector('.email-card')?.addEventListener('click', function() {
+            const email = 'yuri19sousa@gmail.com';
+            navigator.clipboard.writeText(email).then(() => {
+                alert('Email copiado: ' + email);
+            });
+        });
+
+        // Ativar link ativo na navegação
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html>
